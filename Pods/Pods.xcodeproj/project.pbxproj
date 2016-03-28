@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775F1440D9C741F79CDDE1F7BB10C5E8 /* Pods-TYGooglePlacePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC396A36963BBF11DDD5F67918D3969 /* Pods-TYGooglePlacePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFC98330B5BD33C65D20F4862AA7457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CA084ABED86137C4FA425A949B81A4A8 /* Pods-TYGooglePlacePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3B9E7064D10064C3F783F657474BE8 /* Pods-TYGooglePlacePicker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1596814F68363CD10C6C5286BE4A8199 /* Pods-TYGooglePlacePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYGooglePlacePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		211AB4EF771703DB42FE340138446D60 /* Pods-TYGooglePlacePicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYGooglePlacePicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		56AFDBAB74EDE67361A40FF2F6BF2A22 /* Pods-TYGooglePlacePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYGooglePlacePicker.release.xcconfig"; sourceTree = "<group>"; };
+		58DBA5789A175AD2DA6104EC17D65EF3 /* Pods-TYGooglePlacePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TYGooglePlacePicker.modulemap"; sourceTree = "<group>"; };
+		5AC396A36963BBF11DDD5F67918D3969 /* Pods-TYGooglePlacePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYGooglePlacePicker-umbrella.h"; sourceTree = "<group>"; };
+		643FBAE509CA2C51F8023C5B467F3450 /* Pods-TYGooglePlacePicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYGooglePlacePicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D3B9E7064D10064C3F783F657474BE8 /* Pods-TYGooglePlacePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYGooglePlacePicker-dummy.m"; sourceTree = "<group>"; };
+		7C3867A3A198B91A88C03E76101ABD24 /* Pods-TYGooglePlacePicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYGooglePlacePicker-frameworks.sh"; sourceTree = "<group>"; };
+		9392E0B3FA22E3232EBFF71745514F3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3CD824B0B973F3BBE180F6F02B79839 /* Pods-TYGooglePlacePicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYGooglePlacePicker-resources.sh"; sourceTree = "<group>"; };
+		EE8E0FCD1E14AF383691267C1C023E8F /* Pods_TYGooglePlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYGooglePlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D8864AC71B73721F587AF2167745C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFC98330B5BD33C65D20F4862AA7457 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA199A63732DBA5A2506E2DCCF29165 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF33DE25FF0F5AB04AA1082878AE4F /* Pods-TYGooglePlacePicker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
+				B77210849162122BD02A7B9538DB269F /* Products */,
+				1AA199A63732DBA5A2506E2DCCF29165 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EF33DE25FF0F5AB04AA1082878AE4F /* Pods-TYGooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9392E0B3FA22E3232EBFF71745514F3D /* Info.plist */,
+				58DBA5789A175AD2DA6104EC17D65EF3 /* Pods-TYGooglePlacePicker.modulemap */,
+				643FBAE509CA2C51F8023C5B467F3450 /* Pods-TYGooglePlacePicker-acknowledgements.markdown */,
+				211AB4EF771703DB42FE340138446D60 /* Pods-TYGooglePlacePicker-acknowledgements.plist */,
+				6D3B9E7064D10064C3F783F657474BE8 /* Pods-TYGooglePlacePicker-dummy.m */,
+				7C3867A3A198B91A88C03E76101ABD24 /* Pods-TYGooglePlacePicker-frameworks.sh */,
+				E3CD824B0B973F3BBE180F6F02B79839 /* Pods-TYGooglePlacePicker-resources.sh */,
+				5AC396A36963BBF11DDD5F67918D3969 /* Pods-TYGooglePlacePicker-umbrella.h */,
+				1596814F68363CD10C6C5286BE4A8199 /* Pods-TYGooglePlacePicker.debug.xcconfig */,
+				56AFDBAB74EDE67361A40FF2F6BF2A22 /* Pods-TYGooglePlacePicker.release.xcconfig */,
+			);
+			name = "Pods-TYGooglePlacePicker";
+			path = "Target Support Files/Pods-TYGooglePlacePicker";
+			sourceTree = "<group>";
+		};
+		B77210849162122BD02A7B9538DB269F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E0FCD1E14AF383691267C1C023E8F /* Pods_TYGooglePlacePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63C9A787C4D9F643CAB77C7A79B7D977 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775F1440D9C741F79CDDE1F7BB10C5E8 /* Pods-TYGooglePlacePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3B456CA11E7EFAA12F57C0869B330E4 /* Pods-TYGooglePlacePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2689F66403580E483B522DCBFD318C68 /* Build configuration list for PBXNativeTarget "Pods-TYGooglePlacePicker" */;
+			buildPhases = (
+				788F829E9A14E4945BEA507F333472A3 /* Sources */,
+				9D8864AC71B73721F587AF2167745C8C /* Frameworks */,
+				63C9A787C4D9F643CAB77C7A79B7D977 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TYGooglePlacePicker";
+			productName = "Pods-TYGooglePlacePicker";
+			productReference = EE8E0FCD1E14AF383691267C1C023E8F /* Pods_TYGooglePlacePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B77210849162122BD02A7B9538DB269F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B456CA11E7EFAA12F57C0869B330E4 /* Pods-TYGooglePlacePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788F829E9A14E4945BEA507F333472A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA084ABED86137C4FA425A949B81A4A8 /* Pods-TYGooglePlacePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6200AF495A960383AC66D3D88B80CB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56AFDBAB74EDE67361A40FF2F6BF2A22 /* Pods-TYGooglePlacePicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYGooglePlacePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYGooglePlacePicker/Pods-TYGooglePlacePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TYGooglePlacePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AA8903F80532FD547F157A5346F3DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1596814F68363CD10C6C5286BE4A8199 /* Pods-TYGooglePlacePicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYGooglePlacePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYGooglePlacePicker/Pods-TYGooglePlacePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TYGooglePlacePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2689F66403580E483B522DCBFD318C68 /* Build configuration list for PBXNativeTarget "Pods-TYGooglePlacePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA8903F80532FD547F157A5346F3DB6 /* Debug */,
+				6200AF495A960383AC66D3D88B80CB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
